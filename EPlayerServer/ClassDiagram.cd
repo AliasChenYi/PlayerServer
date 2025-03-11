@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AsynClient" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQBAAAACACAAAAAAEAAAAAAKIgAAABABAAiAACAIgA=</HashCode>
+      <FileName>AsynchronousModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsynServer" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAAAQQgCAAAAAAEACAAAAEAAhAAAAAEAAggACACgA=</HashCode>
+      <FileName>AsynchronousModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBusinessLayer" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAAQAAAAAAAAAAAAABAAAAACAAAA=</HashCode>
+      <FileName>AsynchronousModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharReader" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>json\reader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHttpParser" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAgAQAEAgSIAgAgAAClBQAADQAgAQAgCAAgAAAAAAA=</HashCode>
+      <FileName>HttpParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientMap" Collapsed="true">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAEAAAAAAAAAAAAAAAAQAAAAAAEAACgAhAAgA=</HashCode>
+      <FileName>AsynchronousModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogServer" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAAAAAAAAACAAAEEAAAAgAASIAARQIAQAgAAAAAAA=</HashCode>
+      <FileName>LogServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COpenSSLHelper" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpenSSLHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPacket" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAACAgAAAAIAAAAAAAAAAABAAAAAgAAEAAAA=</HashCode>
+      <FileName>AsynchronousModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStreamLogger" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAQAAAICAAACAAAAQAIBAAAAAAAkAAAA=</HashCode>
+      <FileName>LogServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTaskActuator" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAABAAAAAAAAAIIAAAABAAAAAAAAAAACAAAI=</HashCode>
+      <FileName>TaskActuator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EdoyunServer" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAACAAAgAAAYQAAAAEAIgAABBEBBAAAACAQAA=</HashCode>
+      <FileName>EdoyunServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogInfo" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAIAIAAgAAAAAAAAEIAAAIBAAgAAAABAA=</HashCode>
+      <FileName>LogServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TParseUrl" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAACAAAAAgAiAAACAAAAAgAEAQAAAAIAAQAA=</HashCode>
+      <FileName>HttpParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="edoyun::ValueTool&lt;Value&gt;" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAQAAACAAAAAA=</HashCode>
+      <FileName>DatabaseHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="edoyun::DataBaseClient" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABAAAABAKAAAAAAABAgAAAAAgCAAAA=</HashCode>
+      <FileName>DatabaseHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="edoyun::ThreadPool" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACACACABAAAAAAACAAAAAABAEAAAAABAAACAAAA=</HashCode>
+      <FileName>LogServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="edoyun::CFunctionBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="edoyun::CFunction&lt;_FX, ..._Types&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAACEAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="edoyun::CThread" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAgAAAAACAACCAAAABAAAACBAAAAQAAJEAgAAgAAAA=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="edoyun::Task" Collapsed="true">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAASAAAAAACAAAAAAAEAgAAAAAAA=</HashCode>
+      <FileName>ThreadPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::MysqlClient" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABAAABBAKAAAAAAADAAEAAAAACAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::_Mysql_Table_" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAQAIAAAAAAAAAAAgAAAEgAAAAAAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::_DeclareMysqlField&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="5" Width="1.5" />
+    <InheritanceLine Type="edoyun::_Field_" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="3.548" />
+        <Point X="6.75" Y="5.375" />
+        <Point X="5.5" Y="5.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAEAAgAAAAAQAAAGAAAAAgAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::_DeclareMysqlField&lt;void&gt;" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="edoyun::_Field_" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="3.548" />
+        <Point X="6.75" Y="4.125" />
+        <Point X="8.25" Y="4.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAEAAgAAAAAQAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::NULL_FILED" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::INTEGER_FILED" Collapsed="true">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <InheritanceLine Type="mysql::_DeclareMysqlField&lt;T&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="5.677" />
+        <Point X="4.75" Y="6.339" />
+        <Point X="4" Y="6.339" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::DATETIME_FILED" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="mysql::_DeclareMysqlField&lt;T&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="5.677" />
+        <Point X="4.75" Y="8.125" />
+        <Point X="4" Y="8.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAABAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::BOOL_FILED" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="mysql::_DeclareMysqlField&lt;T&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="5.677" />
+        <Point X="4.75" Y="8.089" />
+        <Point X="5.25" Y="8.089" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::REAL_FILED" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <InheritanceLine Type="mysql::_DeclareMysqlField&lt;T&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="5.677" />
+        <Point X="4.75" Y="6.339" />
+        <Point X="5.25" Y="6.339" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::TEXT_FILED" Collapsed="true">
+    <Position X="7" Y="6" Width="1.5" />
+    <InheritanceLine Type="mysql::_DeclareMysqlField&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="5.677" />
+        <Point X="4.75" Y="7.551" />
+        <Point X="7.75" Y="7.551" />
+        <Point X="7.75" Y="6.677" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::VARCHAR_FILED" Collapsed="true">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <InheritanceLine Type="mysql::_DeclareMysqlField&lt;T&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="5.677" />
+        <Point X="4.75" Y="7.551" />
+        <Point X="1.438" Y="7.551" />
+        <Point X="1.438" Y="6.677" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mysql::BLOB_FILED" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="mysql::_DeclareMysqlField&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="5.677" />
+        <Point X="4.75" Y="8.802" />
+        <Point X="1.625" Y="8.802" />
+        <Point X="1.625" Y="8.427" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAABgAAAAAEAAAAAABAAAAAAAA=</HashCode>
+      <FileName>MysqlClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::Sqlite3Client" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAICAAAABAAABBAKAAAAgAABAAAAAAAACAAgA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::_Sqlite3_Table_" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAQAIAAAAAAAAAAAgAAAEgAAAAAAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::_DeclareSqlite3Field&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <InheritanceLine Type="edoyun::_Field_" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="3.548" />
+        <Point X="6.75" Y="5.375" />
+        <Point X="8.25" Y="5.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAEAAAIAAGAAAAAgAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::_DeclareSqlite3Field&lt;void&gt;" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="edoyun::_Field_" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="3.548" />
+        <Point X="6.75" Y="4.125" />
+        <Point X="5.5" Y="4.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAEAAAIAAGAAAAAgAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::NULL_FILED" Collapsed="true">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::INTEGER_FILED" Collapsed="true">
+    <Position X="12.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::DATETIME_FILED" Collapsed="true">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <InheritanceLine Type="_sqlite3::_DeclareSqlite3Field&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9" Y="5.677" />
+        <Point X="9" Y="6.137" />
+        <Point X="13.25" Y="6.137" />
+        <Point X="13.25" Y="5.677" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAABAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::BOOL_FILED" Collapsed="true">
+    <Position X="16.25" Y="5" Width="1.5" />
+    <InheritanceLine Type="_sqlite3::_DeclareSqlite3Field&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9" Y="5.677" />
+        <Point X="9" Y="6.105" />
+        <Point X="17.062" Y="6.105" />
+        <Point X="17.062" Y="5.677" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::REAL_FILED" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::TEXT_FILED" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <InheritanceLine Type="_sqlite3::_DeclareSqlite3Field&lt;T&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="9" Y="5.677" />
+        <Point X="9" Y="6.091" />
+        <Point X="11" Y="6.091" />
+        <Point X="11" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::VARCHAR_FILED" Collapsed="true">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <InheritanceLine Type="_sqlite3::_DeclareSqlite3Field&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9" Y="5.677" />
+        <Point X="9" Y="6.157" />
+        <Point X="11" Y="6.157" />
+        <Point X="11" Y="5.677" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAEAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_sqlite3::BLOB_FILED" Collapsed="true">
+    <Position X="14.25" Y="5" Width="1.5" />
+    <InheritanceLine Type="_sqlite3::_DeclareSqlite3Field&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9" Y="5.677" />
+        <Point X="9" Y="6.104" />
+        <Point X="15" Y="6.104" />
+        <Point X="15" Y="5.677" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAABgAAAAAEAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Sqlite3Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="edoyun::StrListParam" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAACAAAAAAAAAIAAAAAQAAAAAQAAAAAgAAAAAAA=</HashCode>
+      <FileName>DatabaseHelper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="edoyun::_Field_" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgEAAAAgIAAEAAgJAQAAAAEAEAAAQAgAAAIAAA=</HashCode>
+      <FileName>DatabaseHelper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="edoyun::_Table_" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAEAQAIABAAAAAAQAAgAAAEgAAAAAAAgAgAA=</HashCode>
+      <FileName>DatabaseHelper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="edoyun::CThreadStatus" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAABAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAE=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

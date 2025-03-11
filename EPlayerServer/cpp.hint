@@ -1,0 +1,26 @@
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define JEMALLOC_NOTHROW __declspec(nothrow)
+#define JEMALLOC_NOTHROW
+#define JEMALLOC_NOTHROW JEMALLOC_ATTR(nothrow)
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define je_malloc JEMALLOC_N(malloc)
+#define je_malloc
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define JEMALLOC_ATTR(s)
+#define JEMALLOC_ATTR(s) __attribute__((s))
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define JEMALLOC_ALLOC_SIZE(s)
+#define JEMALLOC_ALLOC_SIZE(s) JEMALLOC_ATTR(alloc_size(s))
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define JEMALLOC_CXX_THROW throw()
+#define JEMALLOC_CXX_THROW
